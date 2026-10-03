@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <style>
+        div>p{
+            display: none;
+        }
+        div:hover>p{
+            display: block;
+            background-color: aquamarine;
+            color: brown;
+        }
+        div{
+            display:inline-block ;
+            background-color: antiquewhite;
+            border: 1px;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            
+        }
+        div:hover{
+            color: aqua;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+    <div>04
+        <p>My name is Nzau</p>
+    </div>
+
+</body>
+</html>
